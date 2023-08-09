@@ -1,4 +1,6 @@
 ---
 ---
 
-@import "main";
+@import "base";
+
+{% comment %} need to change main -> base because of new jekyll-sass-converter, for details checkout this discussion: https://talk.jekyllrb.com/t/error-in-step-by-step-tutorial/7984/13 {% endcomment %}
