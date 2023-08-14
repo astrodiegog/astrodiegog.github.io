@@ -1,10 +1,11 @@
 menu:
-- {name: 'people', url: '/people'}
-- {name: 'publications', url: '/publications'}
-- {name: 'courses', url: '/courses'}
-- {name: 'cv', url: '/cv'}
-- {name: 'contact', url: '/contact'}
+- {name: 'About', url: '/people'}
+- {name: 'Research', url: '/publications'}
+- {name: 'Resources', url: '/courses'}
 - {name: 'Blog', url: '/posts'}
+- {name: 'CV', url: '/cv'}
+- {name: 'Contact', url: '/contact'}
+
 
 people:
 - {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
@@ -17,11 +18,11 @@ courses:
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
-- {icon: 'github', link: 'https://github.com/astrodiegog'}
-- {icon: 'twitter', link: 'https://twitter.com/astrodiegog'}
-- {icon: 'instagram', link: 'https://instagram.com/astrodiego'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/diego-garza-0b0620174/'}
-- {icon: 'orcid', link: 'https://orcid.org/0009-0003-0226-6988'}
+- {icon: 'github', link: 'https://github.com/astrodiegog', name: 'Github', handle: 'astrodiegog'}
+- {icon: 'twitter', link: 'https://twitter.com/astrodiegog', name: 'Twitter', handle: 'astrodiegog'}
+- {icon: 'instagram', link: 'https://instagram.com/astrodiego', name: 'Instagram', handle: 'astrodiego'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/diego-garza-0b0620174/', name: 'LinkedIn', handle: 'diego-garza-0b0620174'}
+- {icon: 'orcid', link: 'https://orcid.org/0009-0003-0226-6988', name: 'ORCID', handle: '0009-0003-0226-6988'}
 
 contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {name: 'Diego Garza', title: 'Graduate Student', department: 'Astronomy & Astrophysics', institution: 'University of California: Santa Cruz', institution_address: '1156 High St Santa Cruz, CA', email: 'digarza@ucsc.edu', office: 'Interdisciplinary Sciences Building 269', image: 'assets/img/contact.jpg'}
