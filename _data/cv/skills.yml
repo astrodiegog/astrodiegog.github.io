@@ -1,0 +1,11 @@
+- category: 'Programming'
+  skills: 'Python, C, C++, Bash, SQL/ADQL, Mathematica, LaTeX'
+
+- category: 'Astronomy'
+  skills: 'Simulations, Data Analysis, Data Reduction'
+
+- category: 'General Software'
+  skills: 'Microsoft Office, Adobe Photoshop, DS9, TOPCAT, GALFIT, Pulse Height Analyzer, Oscilloscope, SRIM'
+
+- category: 'Language'
+  skills: 'English, Spanish'

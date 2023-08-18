@@ -4,30 +4,153 @@ layout: default
 
 {{ content }}
 
+
+
 <div class="row g-5 mb-5">
+
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">CV</h3>
+    <!-- <h3 class="fw-bold border-bottom pb-3 mb-5">CV (PDF)</h3> -->
+
     <div class="row g-5 mb-5">
+
       <div class="col-md-2">
         <h4>Education</h4>
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.education %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+        <p class="fw-bold">{{ section.title }}</p>
+        {% if section.GPA != 0%}
+        <p>{{ section.description }} | GPA: {{ section.GPA }}</p>
+        {% else %}
+        <p>{{ section.description }}</p>
+        {% endif %}
         {% endfor %}
       </div>
     </div>
+
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Academic Experience</h4>
+        <h4>Research Experience</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+        {% for section in site.data.cv.research-experience %}
+        <p class="fw-bold">{{ section.title }}</p>
+        <p>{{ section.institution }} | Supervised by: {{ section.mentor }} | {{ section.dates}}</p>
+        {% for task in section.description %}
+        <ul>
+          - {{task}}
+        </ul>
+        {% endfor %}
         {% endfor %}
       </div>
     </div>
+
+
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Teaching Experience</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.teaching-experience %}
+        <p class="fw-bold">{{ section.title }}</p>
+        <p>{{ section.course }} | {{ section.dates}}</p>
+        {% for task in section.description %}
+        <ul>
+          {{task}}
+        </ul>
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+
+
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Service, Outreach, Mentorship</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.service %}
+
+
+        {% if section.link != '' %}
+        <a href="{{ section.link }}" style="text-decoration:none">
+          <p class="fw-bold">{{ section.title }}</p>
+        </a>
+        {% else %}
+        <p class="fw-bold">{{ section.title }}</p>
+        {% endif %}
+
+
+
+        <p>{{ section.dates}}</p>
+        {% for task in section.description %}
+        <ul>
+          {{task}}
+        </ul>
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+
+
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Work Experience</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.work-experience %}
+        <p class="fw-bold">{{ section.title }}</p>
+
+        {% if section.link != '' %}
+        <a href="{{ section.link }}" style="text-decoration:none">
+          <p>{{ section.employer }}
+        </a> | {{ section.dates}}</p>
+        {% else %}
+        <p>{{ section.employer }} | {{ section.dates}}</p>
+        {% endif %}
+
+        {% for task in section.description %}
+        <ul>
+          {{task}}
+        </ul>
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+
+
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Awards</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.awards %}
+
+        {% if section.link != '' %}
+        <a href="{{ section.link }}" style="text-decoration:none">
+          <p>{{ section.title }}
+        </a> | {{ section.date}}</p>
+
+        {% else %}
+        <p>{{ section.title }} | {{ section.date}}</p>
+        {% endif %}
+
+        {% endfor %}
+      </div>
+    </div>
+
+
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Skills</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.skills %}
+        <p><strong>{{ section.category }}</strong>: {{ section.skills }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+
   </div>
 </div>

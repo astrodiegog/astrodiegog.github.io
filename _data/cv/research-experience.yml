@@ -1,0 +1,40 @@
+- title: 'Caustic Properties in Outskirts of Dark Matter Halos'
+  dates: 'February 2021 – Present'
+  institution: 'University of Chicago: Department of Astronomy & Astrophysics'
+  mentor: 'Susmita Adhikari & Andrey Kravtsov '
+  description: ['Analyze density histories of cold dark matter halos using cold dark matter simulations',
+  'Study phase space structures in solid angle bins to develop an algorithm to identify the splash back radius of cluster-sized dark matter halos in simulations']
+  link: ''
+
+- title: 'Chemo-Dynamic Properties of the Fastest Stars in the Milky Way'
+  dates: 'June 2022 – Present'
+  institution: 'University of Texas at Austin: Dept. of Astronomy'
+  mentor: 'Keith Hawkins & Tyler Nelson'
+  description: ['Analyze chemical properties of fast stars in the Galaxy using Gaia DR3 to chemically tag them onto a stellar population',
+  'Analyze MCMC orbit integration of the fastest stars to physically determine their origins']
+  link: ''
+
+
+- title: 'LADEE Data Analysis of the Lunar Exosphere'
+  dates: 'June 2022 – August 2022'
+  institution: 'NASA: Goddard Space Flight Center'
+  mentor: 'Orenthal J. Tucker'
+  description: ['Analyzed how chemical abundances in the Lunar Exosphere changes with respect to local lunar time using data from the Lunar Atmosphere and Dust Environment Explorer spacecraft']
+  link: ''
+
+
+- title: 'ChicagO Optically-selected Lenses - Located at the Margins of Public Surveys (COOL-LAMPS)'
+  dates: 'January 2022 – June 2022'
+  institution: 'University of Chicago: Department of Astronomy & Astrophysics'
+  mentor: 'Michael D. Gladders'
+  description: ['Identified galaxy candidates using extragalactic spectroscopic DECamera Legacy Survey', 
+  'Utilized the surface brightness modeling software GALFIT to describe galaxy mass distribution, providing information on stellar population synthesis']
+  link: 'https://coollamps.github.io'
+
+- title: 'Study of Gaseous Argon Time Projection Chambers'
+  dates: 'June 2021 - August 2021'
+  institution: 'Fermi National Accelerator Laboratory: Neutrino Division'
+  mentor: 'David Caratelli & Angela Fava'
+  description: ['Analyzed setups of gaseous Argon time projection chambers for low energy nuclear recoils using simulation software of Argon ion trajectories into gaseous Argon to model, optimize, and study both position and energy resolution', 
+  'Created supplemented research material for electron charge amplification in liquid Argon']
+  link: ''
