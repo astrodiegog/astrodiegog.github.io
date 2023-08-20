@@ -34,7 +34,18 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.research-experience %}
+
+
+        {% if section.link != '' %}
+        <a href="{{ section.link }}" style="text-decoration:none">
+          <p class="fw-bold">{{ section.title }}</p>
+        </a>
+        {% else %}
         <p class="fw-bold">{{ section.title }}</p>
+        {% endif %}
+
+
+
         <p>{{ section.institution }} | Supervised by: {{ section.mentor }} | {{ section.dates}}</p>
         {% for task in section.description %}
         <ul>

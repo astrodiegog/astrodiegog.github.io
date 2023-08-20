@@ -1,4 +1,4 @@
 ---
-layout: post
-title: "Will Include all posts here"
+layout: post_title
+title: "Blog !"
 ---
