@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Stellar Structures"
+institution: "UCSC"
 ---
 
 #### Course Information

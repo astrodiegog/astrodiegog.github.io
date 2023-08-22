@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom">Resources</h3>
+    {{ content }}
+
+    {% assign all_resources = site.data.settings.resources %}
+    {% assign course_resources = all_resources | where: "course", true %}
+    {% assign course_resources = course_resources | sort: "institution" %}
+    {% assign noncourse_resources = all_resources | where: "course", false %}
+
+
+    {% for resource in noncourse_resources %}
+    <li><a href="{{ site.github.url }}/resources/ {{resource.url}}">{{ resource.name }}</a></li>
+    {% endfor %}
+
+
+
+    <br>
+    <h2>Class Resources</h2>
+    Below are resources regarding specific courses I have taken that are generally focused around physics, astronomy,
+    and math.
+    I personally use Notability to take notes on my iPad, but plan to transfer them onto either LaTeX or Markdown in the
+    near future.
+
+    {% assign curr_institution = ""%}
+    {% for resource in course_resources %}
+
+    {% if resource.institution != curr_institution %}
+    <h3>{{resource.institution}}</h3>
+    {% assign curr_institution = resource.institution %}
+    {% endif %}
+    <ul>
+      <li><a href="{{ site.github.url }}/resources/ {{resource.url}}">{{ resource.name }}</a></li>
+    </ul>
+    {% endfor %}
+
+  </div>
+</div>
