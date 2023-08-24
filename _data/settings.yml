@@ -1,6 +1,6 @@
 menu:
 - {name: 'About', url: '/people'}
-- {name: 'Research', url: '/publications'}
+- {name: 'Research', url: '/research'}
 - {name: 'Resources', url: '/resources'}
 - {name: 'Blog', url: '/posts'}
 - {name: 'CV', url: '/cv'}
@@ -29,4 +29,4 @@ social:
 - {icon: 'orcid', link: 'https://orcid.org/0009-0003-0226-6988', name: 'ORCID', handle: '0009-0003-0226-6988'}
 
 contacts:
-- {name: 'Diego Garza', title: 'Graduate Student', department: 'Astronomy & Astrophysics', institution: 'University of California: Santa Cruz', institution_address: '1156 High St Santa Cruz, CA', email: 'digarza@ucsc.edu', office: 'Interdisciplinary Sciences Building 269', image: 'assets/img/contact.jpg'}
+- {name: 'Diego Garza', title: 'Graduate Student', department: 'Astronomy & Astrophysics', institution: 'University of California: Santa Cruz', institution_address: '1156 High St Santa Cruz, CA', email: 'digarza@ucsc.edu', office: 'Interdisciplinary Sciences Building', image: 'assets/img/contact.jpg'}

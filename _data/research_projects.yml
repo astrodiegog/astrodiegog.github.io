@@ -1,0 +1,6 @@
+index:
+- {title: 'Title 1', url: '/research/project1', pic: 'assets/img/contact.jpg', description: 'description 1'}
+- {title: 'Title 2', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf', pic: 'assets/img/contact.jpg', description: 'description 2'}
+- {title: 'Title 3', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf', pic: 'assets/img/contact.jpg', description: 'description 3'}
+- {title: 'Title 4', url: 'https://static1.squarespace.com/static/5684891d7086d74497aeb71f/t/56ec510d2fe1319543ab6d6f/1458327821946/10.1140-epje-i2012-12114-x.pdf', pic: 'assets/img/contact.jpg', description: 'description 4'}
+
