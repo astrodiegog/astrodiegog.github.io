@@ -1,5 +1,9 @@
 # academic
 
+This is a fork from the Jekyll theme Github repository that I use for my website. While I edit some things, most of the overall structure is the same, so I am going to keep the README the same with some tweaks in the usage section.
+
+Here's a brief way that I choose to understood all of these filed. The `md` files in the root of the repo are each pages/sections of the website: About, Contact, CV, Posts, Research, and Resources. Each of these pages need to import an html layout to use, which all live under `_layouts/`. Each page/section has its own `html` layout that I populate. Each blog post (which live in `_posts/`) uses `post.html` as the template to use. Each research project explanation (which live in `research`) uses `project.html` as the template to use. Each resource will have all of their related filed under their own file/directory in `resources`. In `data/` are configuration files that make it easy to change to somebody else's.
+
 ### A Jekyll theme for academia
 
 ![Academic Screenshot](https://raw.githubusercontent.com/LeNPaul/academic/gh-pages/screenshot.png)
@@ -50,17 +54,23 @@ The following sections describe usage instructions for this Jekyll theme,includi
 
 The `_layouts/home.html` layout defines the home page for this theme. An introduction to your research group or to yourself can be provided, along with a list of featured publications. There is also a section for providing any updates through posts placed in the `_posts` directory.
 
-#### People
+#### About
 
-The `_layouts/people.html` layout can be used to showcase and describe people in your research group. People are defined in the `_data/settings.yml` file, and markdown pages for each person with the `_layouts/page.html` layout can be placed in the `people` directory.
+The `_layouts/about.html` layout can be used to showcase and describe people in your research group. People are defined in the `_data/settings.yml` file, and markdown pages for each person with the `_layouts/page.html` layout can be placed in the `people` directory. 
 
-#### Publications
+Since I'm only one person, I change the `people` layout to a simple about section/bio.
 
-The `_layouts/publications.html` layout can be used to showcase selected publications, or the entire catalogue of publications. Direct links to the paper can be used, or a PDF copy of the paper can be served. Publications are defined in the `_data/publications.yml` file, and any PDF files that are served can be placed in the `publications` directory.
+#### Research
 
-#### Courses
+The `_layouts/research.html` layout can be used to showcase selected publications, or the entire catalogue of publications. Direct links to the paper can be used, or a PDF copy of the paper can be served. Publications are defined in the `_data/research_projects.yml` file, and any PDF files that are served can be placed in the `research` directory. 
 
-The `_layouts/courses.html` layout can be used to showcase courses that were taught in the past or are currently being taught. Courses are defined in the `_data/settings.yml` file, and markdown pages for each course with the `_layouts/page.html` layout can be placed in the `courses` directory. Related course material, such as PDF files, can also be placed in the `courses` directory in a subdirectory with the same name as the corresponding course.
+I expand this section to let me make research posts about each project.
+
+#### Resources
+
+The `_layouts/resources.html` layout can be used to showcase courses that were taught in the past or are currently being taught. Courses are defined in the `_data/settings.yml` file, and markdown pages for each course with the `_layouts/page.html` layout can be placed in the `resources` directory. Related course material, such as PDF files, can also be placed in the `resources` directory in a subdirectory with the same name as the corresponding course. 
+
+I expanded this section by generalizing `courses` to `resources` so I can place non-class related resources here.
 
 #### CV
 
