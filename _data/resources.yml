@@ -1,0 +1,9 @@
+index:
+- {name: 'Quantum Mechanics_ucsc', url: 'quantum-mechanics', course: True, institution: "UCSC"}
+- {name: 'Vector Calculus', url: 'vector-calculus', course: False}
+- {name: 'Quantum Mechanics', url: 'quantum-mechanics', course: True, institution: "UChicago"}
+- {name: 'Stellar Structures', url: 'stellar-structures', course: True, institution: "UCSC"}
+- {name: 'Stellar Structures_uchic', url: 'stellar-structures', course: True, institution: "UChicago"}
+- {name: 'Vector Calculus2', url: 'vector-calculus', course: False}
+- {name: 'Quantum Mechanics_ucsc', url: 'quantum-mechanics', course: True, institution: "UCSC"}
+- {name: 'Stellar Structures_uchic', url: 'stellar-structures', course: True, institution: "UChicago"}

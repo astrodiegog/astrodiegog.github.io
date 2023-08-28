@@ -9,14 +9,14 @@ layout: default
     <h3 class="fw-bold border-bottom">Resources</h3>
     {{ content }}
 
-    {% assign all_resources = site.data.settings.resources %}
+    {% assign all_resources = site.data.resources.index %}
     {% assign course_resources = all_resources | where: "course", true %}
     {% assign course_resources = course_resources | sort: "institution" %}
     {% assign noncourse_resources = all_resources | where: "course", false %}
 
 
     {% for resource in noncourse_resources %}
-    <li><a href="{{ site.github.url }}/resources/ {{resource.url}}">{{ resource.name }}</a></li>
+    <li><a href="{{ site.github.url }}/resources/{{resource.url}}">{{ resource.name }}</a></li>
     {% endfor %}
 
 
@@ -36,7 +36,7 @@ layout: default
     {% assign curr_institution = resource.institution %}
     {% endif %}
     <ul>
-      <li><a href="{{ site.github.url }}/resources/ {{resource.url}}">{{ resource.name }}</a></li>
+      <li><a href="{{ site.github.url }}/resources/{{resource.url}}">{{ resource.name }}</a></li>
     </ul>
     {% endfor %}
 

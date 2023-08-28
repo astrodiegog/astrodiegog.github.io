@@ -6,14 +6,6 @@ menu:
 - {name: 'CV', url: '/cv'}
 - {name: 'Contact', url: '/contact'}
 
-resources:
-- {name: 'Vector Calculus', url: 'vector-calculus', course: False}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics', course: True, institution: "UChicago"}
-- {name: 'Stellar Structures', url: 'stellar-structures', course: True, institution: "UCSC"}
-- {name: 'Stellar Structures_uchic', url: 'stellar-structures', course: True, institution: "UChicago"}
-- {name: 'Vector Calculus2', url: 'vector-calculus', course: False}
-- {name: 'Quantum Mechanics_ucsc', url: 'quantum-mechanics', course: True, institution: "UCSC"}
-
 social:
 - {icon: 'github', link: 'https://github.com/astrodiegog', name: 'Github', handle: 'astrodiegog'}
 - {icon: 'twitter', link: 'https://twitter.com/astrodiegog', name: 'Twitter', handle: 'astrodiegog'}

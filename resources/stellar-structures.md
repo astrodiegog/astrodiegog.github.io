@@ -6,15 +6,15 @@ institution: "UCSC"
 
 #### Course Information
 
-[Course Outline](/courses/stellar-structures/Sample_Course_Outline.pdf)
+[Course Outline](/resources/stellar-structures/Sample_Course_Outline.pdf)
 
 #### Lecture Notes
 
-[Lecture 1](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+[Lecture 1](/resources/stellar-structures/Sample_Lecture_Notes.pdf)
 
-[Lecture 2](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+[Lecture 2](/resources/stellar-structures/Sample_Lecture_Notes.pdf)
 
-[Lecture 3](/courses/stellar-structures/Sample_Lecture_Notes.pdf)
+[Lecture 3](/resources/stellar-structures/Sample_Lecture_Notes.pdf)
 
 #### Homework
 
