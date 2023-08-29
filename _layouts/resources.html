@@ -6,7 +6,7 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fw-bold border-bottom">Resources</h3>
+    <h3 class="fw-bold border-bottom pb-2 mb-1">Resources</h3>
     {{ content }}
 
     {% assign all_resources = site.data.resources.index %}
@@ -16,12 +16,11 @@ layout: default
 
 
     {% for resource in noncourse_resources %}
-    <li><a href="{{ site.github.url }}/resources/{{resource.url}}">{{ resource.name }}</a></li>
+    <ul>
+      <li><a href="{{ site.github.url }}/resources/{{resource.url}}">{{ resource.name }}</a></li>
+    </ul>
     {% endfor %}
 
-
-
-    <br>
     <h2>Class Resources</h2>
     Below are resources regarding specific courses I have taken that are generally focused around physics, astronomy,
     and math.
