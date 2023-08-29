@@ -23,7 +23,7 @@ layout: default
     <h2 class="fw-bold">{{start_year}}</h2>
     {% endif %}
 
-    <p>{{ post.date | date: "%B %-d, %Y" }} - <a href="{{ site.github.url }} {{ post.url }}">{{ post.title }}</a></p>
+    <p>{{ post.date | date: "%B %-d, %Y" }} - <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></p>
     {% endfor %}
   </div>
 </div>
