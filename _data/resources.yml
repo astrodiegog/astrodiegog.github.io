@@ -1,3 +1,5 @@
 index:
 - {name: 'C (Kernighan & Ritchie)', url: 'c_kr', course: False}
 - {name: 'Radiation Processes', url: 'rad_pro', course: True, institution: "UChicago"}
+- {name: 'Math Methods', url: 'math_meth', course: True, institution: "UChicago"}
+- {name: 'Dark Universe', url: 'dark_uni', course: True, institution: "UChicago"}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Rad Pro"
+title: "Radiation Processes in Astrophysics"
 ---
 
 Here I share the resources from Radiation Processes in Astrophysics (ASTR 254) taught by Professor Fausto Cattaneo. This was the first quarter where classes were getting back to in-person after COVID-19 restrictions. I had to take an in-person midterm and final, which ended up being pretty hard after a year and a half of not testing in person.
@@ -63,4 +63,3 @@ Here I share my lecture notes:
 [Lecture 16](/resources/rad_pro/Lecture_Nov_30_2021.pdf)
 
 [Lecture 17](/resources/rad_pro/Lecture_Dec_2_2021.pdf)
-
