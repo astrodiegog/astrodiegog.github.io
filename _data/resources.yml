@@ -3,3 +3,4 @@ index:
 - {name: 'Radiation Processes', url: 'rad_pro', course: True, institution: "UChicago"}
 - {name: 'Math Methods', url: 'math_meth', course: True, institution: "UChicago"}
 - {name: 'Dark Universe', url: 'dark_uni', course: True, institution: "UChicago"}
+- {name: 'Experimental Physics', url: 'exp_phys', course: True, institution: "UChicago"}
