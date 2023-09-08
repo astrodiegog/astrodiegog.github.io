@@ -5,3 +5,4 @@ index:
 - {name: 'Dark Universe', url: 'dark_uni', course: True, institution: "UChicago"}
 - {name: 'Experimental Physics', url: 'exp_phys', course: True, institution: "UChicago"}
 - {name: 'Intro to CS 2', url: 'intro2cs2', course: True, institution: "UChicago"}
+- {name: 'Intro to Comp Sys', url: 'intro2comp_sys', course: True, institution: "UChicago"}
