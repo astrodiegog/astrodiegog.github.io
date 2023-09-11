@@ -7,3 +7,4 @@ index:
 - {name: 'Intro to CS 2', url: 'intro2cs2', course: True, institution: "UChicago"}
 - {name: 'Intro to Comp Sys', url: 'intro2comp_sys', course: True, institution: "UChicago"}
 - {name: 'Electromagnetism', url: 'em', course: True, institution: "UChicago"}
+- {name: 'Quantum Mechanics', url: 'qm', course: True, institution: "UChicago"}
