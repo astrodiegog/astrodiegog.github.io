@@ -65,7 +65,6 @@ Here are those lecture notes:
 
 [Lecture 22](/resources/qm/qm1/Lecture_Mar_8_2021.pdf)
 
-
 QM2
 
 1. QM in 3D
