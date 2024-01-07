@@ -8,3 +8,7 @@ index:
 - {name: 'Intro to Comp Sys', url: 'intro2comp_sys', course: True, institution: "UChicago"}
 - {name: 'Electromagnetism', url: 'em', course: True, institution: "UChicago"}
 - {name: 'Quantum Mechanics', url: 'qm', course: True, institution: "UChicago"}
+# - {name: 'Riemann Solvers', url: 'riemann', course: False}
+- {name: 'Fluid Dynamics', url: 'fluids', course: True, institution: "UC Santa Cruz"}
+- {name: 'Observational Astronomy', url: 'obsv_astro', course: True, institution: "UC Santa Cruz"}
+- {name: 'Astronomical Teaching', url: 'astro_teach', course: True, institution: "UC Santa Cruz"}
