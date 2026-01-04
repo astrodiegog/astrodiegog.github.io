@@ -2,6 +2,10 @@
   description: 'The University of California at Santa Cruz (2023 - 2029)'
   GPA: 0
   
+- title: 'Master of Science in Astronomy & Astrophysics'
+  description: 'The University of California at Santa Cruz (2023 - 2025)'
+  GPA: 0
+
 - title: 'Bachelor of Arts in Physics, Bachelor of Science (Honors) in Astronomy & Astrophysics'
   description: 'The University of Chicago (2019 - 2023)'
   GPA: 3.67

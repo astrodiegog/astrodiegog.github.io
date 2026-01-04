@@ -1,19 +1,25 @@
-- title: 'Caustic Properties in Outskirts of Dark Matter Halos'
-  dates: 'February 2021 – Present'
-  institution: 'University of Chicago: Department of Astronomy & Astrophysics'
-  mentor: 'Susmita Adhikari & Andrey Kravtsov '
-  description: ['Analyze density histories of cold dark matter halos using cold dark matter simulations',
-  'Study phase space structures in solid angle bins to develop an algorithm to identify the splash back radius of cluster-sized dark matter halos in simulations']
+- title: 'Imprints of Dynamical Dark Energy in the Lyman-Alpha Forest'
+  dates: 'September 2023 – Present'
+  institution: 'University of California: Department of Astronomy & Astrophysics'
+  mentor: 'Brant Robertson'
+  description: ['Analyze high-resolution hydrodynamic cosmological simulations which incorporate a time-evolving dark energy equation of state', 'Highlight a spectral- and redshift- dependent feature in the transmitted flux power spectrum when comparing between dynamical dark energy and standard LCDM models']
   link: ''
 
 - title: 'Chemo-Dynamic Properties of the Fastest Stars in the Milky Way'
-  dates: 'June 2022 – Present'
+  dates: 'June 2022 – October 2023'
   institution: 'University of Texas at Austin: Dept. of Astronomy'
   mentor: 'Keith Hawkins & Tyler Nelson'
   description: ['Analyze chemical properties of fast stars in the Galaxy using Gaia DR3 to chemically tag them onto a stellar population',
   'Analyze MCMC orbit integration of the fastest stars to physically determine their origins']
   link: ''
 
+- title: 'Caustic Properties in Outskirts of Dark Matter Halos'
+  dates: 'February 2021 – June 2023'
+  institution: 'University of Chicago: Department of Astronomy & Astrophysics'
+  mentor: 'Susmita Adhikari & Andrey Kravtsov '
+  description: ['Analyze density histories of cold dark matter halos using cold dark matter simulations',
+  'Study phase space structures in solid angle bins to develop an algorithm to identify the splash back radius of cluster-sized dark matter halos in simulations']
+  link: ''
 
 - title: 'LADEE Data Analysis of the Lunar Exosphere'
   dates: 'June 2022 – August 2022'
